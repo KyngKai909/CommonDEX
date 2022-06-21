@@ -43,9 +43,9 @@ export function colors(darkMode: boolean): Colors {
     black,
 
     // gradient colors
-    grd1: darkMode ? '#394F50' : '#FFC3AB',
-    grd2: darkMode ? '#212429' : '#FAFAE2',
-    grd3: darkMode ? '#394F50' : '#CBF3EF',
+    grd1: darkMode ? '#0E0E0E' : '#FFC3AB',
+    grd2: darkMode ? '#141414' : '#FAFAE2',
+    grd3: darkMode ? '#0E0E0E' : '#CBF3EF',
 
     // text
     text1: darkMode ? '#FFFFFF' : '#000000',
