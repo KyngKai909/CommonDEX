@@ -107,13 +107,13 @@ export default function MobileOptions({ history }: { history: any }) {
             </StyledNavLink>
           </Box>
           <Box>
-            <StyledExternalLink id={`stake-nav-link`} href={'https://1hive.org/'}>
+            <StyledExternalLink id={`stake-nav-link`} href={'https://vote.streetbased.co/'}>
               Governance <span style={{ fontSize: '11px' }}>↗</span>
             </StyledExternalLink>
           </Box>
           <Box>
-            <StyledExternalLink id={`stake-nav-link`} href={'https://1hive.io/'}>
-              Farms <span style={{ fontSize: '11px' }}>↗</span>
+            <StyledExternalLink id={`stake-nav-link`} href={'https://streetbased.co/funds'}>
+              Funds <span style={{ fontSize: '11px' }}>↗</span>
             </StyledExternalLink>
           </Box>
           <Box>
