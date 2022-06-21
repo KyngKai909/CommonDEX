@@ -102,7 +102,7 @@ export function colors(darkMode: boolean): Colors {
     purple3: '#0E0E0E',
     purple4: '#0E0E0E',
     purple5: '#0E0E0E',
-    boxShadow: '#EDEDED',
+    boxShadow: '#141414',
 
     // darkest // dark 1.1
     darkest: '#0E0E0E',
