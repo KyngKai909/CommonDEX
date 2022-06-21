@@ -256,20 +256,20 @@ function Header({ history }: { history: any }) {
           >
             {t('pool')}
           </StyledNavLink>
-          <StyledExternalLink id={`stake-nav-link`} href={`https://1hive.org/`}>
+          <StyledExternalLink id={`stake-nav-link`} href={`https://vote.streetbased.co/`}>
             Governance{' '}
             <Text ml="4px" fontSize="11px">
               ↗
             </Text>
           </StyledExternalLink>
-          <StyledExternalLink id={`stake-nav-link`} href={`https://1hive.io/`}>
-            Farms{' '}
+          <StyledExternalLink id={`stake-nav-link`} href={`https://streetbased.co/funds`}>
+            Funds{' '}
             <Text ml="4px" fontSize="11px">
               ↗
             </Text>
           </StyledExternalLink>
           <StyledExternalLink id={`stake-nav-link`} href={`https://info.honeyswap.org/`}>
-            Charts{' '}
+            Analytics{' '}
             <Text ml="4px" fontSize="11px">
               ↗
             </Text>
