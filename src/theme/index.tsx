@@ -95,19 +95,19 @@ export function colors(darkMode: boolean): Colors {
     // blue5: darkMode ? '#153d6f70' : '#EBF4FF',
 
     // new UI refactor colors
-    mainPurple: '#2E17F2',
-    purpleBase: '#101016',
-    purpleOverlay: '#111018',
-    purple2: '#FFE270',
-    purple3: '#FFE270',
-    purple4: '#FFE270',
-    purple5: '#FFE270',
-    boxShadow: '#0A0A0F',
+    mainPurple: '#0E0E0E',
+    purpleBase: '#141414',
+    purpleOverlay: '#262626',
+    purple2: '#0E0E0E',
+    purple3: '#0E0E0E',
+    purple4: '#0E0E0E',
+    purple5: '#0E0E0E',
+    boxShadow: '#EDEDED',
 
     // darkest // dark 1.1
-    darkest: '#161721',
-    dark1: '#212429',
-    dark2: '#2A2F42'
+    darkest: '#0E0E0E',
+    dark1: '#141414',
+    dark2: '#262626'
 
     // dont wanna forget these blue yet
     // blue4: darkMode ? '#153d6f70' : '#C4D9F8',
@@ -126,7 +126,7 @@ export function theme(darkMode: boolean): DefaultTheme {
     },
 
     //shadows
-    shadow1: darkMode ? '#000' : '#2F80ED',
+    shadow1: darkMode ? '#000' : '#EDEDED',
 
     // media queries
     mediaWidth: mediaWidthTemplates,
