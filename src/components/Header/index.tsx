@@ -4,8 +4,8 @@ import { NavLink, withRouter } from 'react-router-dom'
 import styled from 'styled-components'
 
 import Logo from '../../assets/svg/logo.svg'
-import LogoDark from '../../assets/images/"SB" white-18.png 16px'
-import Wordmark from '../../assets/images/LoudMind Inc Logo-18 copy 16px'
+import LogoDark from '../../assets/images/"SB" white-18.png' sizes="192x192"
+import Wordmark from '../../assets/images/LoudMind Inc Logo-18 copy' sizes="192x192"
 import WordmarkDark from '../../assets/svg/wordmark_white.svg'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
