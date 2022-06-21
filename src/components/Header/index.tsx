@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 import Logo from '../../assets/svg/logo.svg'
 import LogoDark from '../../assets/images/"SB" white-18.png'
-import Wordmark from '../../assets/svg/wordmark.svg'
+import Wordmark from '../../assets/images/LoudMind Inc Logo-18 copy'
 import WordmarkDark from '../../assets/svg/wordmark_white.svg'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
