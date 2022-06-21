@@ -4,7 +4,7 @@ import { NavLink, withRouter } from 'react-router-dom'
 import styled from 'styled-components'
 
 import Logo from '../../assets/svg/logo.svg'
-import LogoDark from '../../assets/images/Logo Icon.png'
+import LogoDark from '../../assets/images/Logo White Icon.png'
 import Wordmark from '../../assets/images/Black Wordmark.png'
 import WordmarkDark from '../../assets/svg/wordmark_white.svg'
 import { useActiveWeb3React } from '../../hooks'
