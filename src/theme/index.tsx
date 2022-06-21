@@ -126,7 +126,7 @@ export function theme(darkMode: boolean): DefaultTheme {
     },
 
     //shadows
-    shadow1: darkMode ? '#000' : '#EDEDED',
+    shadow1: darkMode ? '#000' : '#141414',
 
     // media queries
     mediaWidth: mediaWidthTemplates,
