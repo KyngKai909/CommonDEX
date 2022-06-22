@@ -49,10 +49,10 @@ export function colors(darkMode: boolean): Colors {
 
     // text
     text1: darkMode ? '#FFFFFF' : '#000000',
-    text2: darkMode ? '#C3C5CB' : '#565A69',
-    text3: darkMode ? '#6C7284' : '#888D9B',
-    text4: darkMode ? '#565A69' : '#C3C5CB',
-    text5: darkMode ? '#c3c5cb' : '#888d9b',
+    text2: darkMode ? '#FFFFFF' : '#000000',
+    text3: darkMode ? '#FFFFFF' : '#000000',
+    text4: darkMode ? '#FFFFFF' : '#000000',
+    text5: darkMode ? '#FFFFFF' : '#000000',
 
     // backgrounds / greys
     bg1: darkMode ? '#141414' : '#FFFFFF',
