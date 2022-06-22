@@ -340,11 +340,11 @@ export default function SettingsTab() {
                     </MenuFlyoutBottomItem>
 
                     <MenuBanner id="link" href="https://commondao.xyz/" rel="noopener noreferrer" target="_blank">
-                      <TYPE.body fontWeight={700} fontSize="10px" letterSpacing="3px" color="text1" marginBottom="4px">
+                      <TYPE.body fontWeight={700} fontSize="9px" letterSpacing="3px" color="text1" marginBottom="4px">
                         A CommonWealth Organization
                       </TYPE.body>
-                      <TYPE.body fontWeight={500} fontSize="10px" letterSpacing="3px" color="text1">
-                        1Hive.org
+                      <TYPE.body fontWeight={500} fontSize="9px" letterSpacing="3px" color="text1">
+                        COMMONDAO.XYZ
                       </TYPE.body>
                     </MenuBanner>
                   </MenuFlyoutBottom>
