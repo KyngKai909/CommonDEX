@@ -321,7 +321,7 @@ export default function SettingsTab() {
                 <FlyoutBottomAligner>
                   <MenuFlyoutBottom>
                     <MenuFlyoutBottomItem>
-                      <MenuItem id="link" href="https://1hive.org/" rel="noopener noreferrer" target="_blank">
+                      <MenuItem id="link" href="https://commondao.xyz/" rel="noopener noreferrer" target="_blank">
                         <Info size={14} />
                         About
                       </MenuItem>
