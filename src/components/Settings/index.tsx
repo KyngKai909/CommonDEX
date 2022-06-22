@@ -343,7 +343,7 @@ export default function SettingsTab() {
                       <TYPE.body fontWeight={700} fontSize="9px" letterSpacing="3px" color="text1" marginBottom="4px">
                         The People's CommonWealth
                       </TYPE.body>
-                      <TYPE.body fontWeight={500} fontSize="7x" letterSpacing="3px" color="text1">
+                      <TYPE.body fontWeight={500} fontSize="7px" letterSpacing="3px" color="text1">
                         COMMONDAO.XYZ
                       </TYPE.body>
                     </MenuBanner>
