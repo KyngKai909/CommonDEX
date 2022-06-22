@@ -94,7 +94,7 @@ export default function App() {
           </BodyWrapper>
 
           <Footer>
-            “Finding Value <span role="img" aria-label="bee">🐝</span>-in Areas most others Ignore <span role="img" aria-label="bee">🐝</span>.”  —Marcus Aurelius</Footer>
+            “Finding Value in Areas most people Ignore.” — A CommonWealth Organizatioon</Footer>
         </AppWrapper>
       </HashRouter>
     </Suspense>
