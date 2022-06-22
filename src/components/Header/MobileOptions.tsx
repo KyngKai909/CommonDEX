@@ -108,17 +108,17 @@ export default function MobileOptions({ history }: { history: any }) {
           </Box>
           <Box>
             <StyledExternalLink id={`stake-nav-link`} href={'https://vote.streetbased.co/'}>
-              Governance <span style={{ fontSize: '11px' }}>↗</span>
+              Governance <span style={{ fontSize: '11px' }}> ↗</span>
             </StyledExternalLink>
           </Box>
           <Box>
             <StyledExternalLink id={`stake-nav-link`} href={'https://streetbased.co/funds'}>
-              Funds <span style={{ fontSize: '11px' }}>↗</span>
+              Funds <span style={{ fontSize: '11px' }}> ↗</span>
             </StyledExternalLink>
           </Box>
           <Box>
             <StyledExternalLink id={`stake-nav-link`} href={'https://info.honeyswap.org/'}>
-              Analytics <span style={{ fontSize: '11px' }}>↗</span>
+              Analytics <span style={{ fontSize: '11px' }}> ↗</span>
             </StyledExternalLink>
           </Box>
         </Wrapper>
