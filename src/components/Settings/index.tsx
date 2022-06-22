@@ -340,7 +340,7 @@ export default function SettingsTab() {
                     </MenuFlyoutBottomItem>
 
                     <MenuBanner id="link" href="https://commondao.xyz/" rel="noopener noreferrer" target="_blank">
-                      <TYPE.body fontWeight={700} fontSize="9px" letterSpacing="3px" color="text1" marginBottom="4px">
+                      <TYPE.body fontWeight={700} fontSize="8px" letterSpacing="3px" color="text1" marginBottom="4px">
                         The People's CommonWealth
                       </TYPE.body>
                       <TYPE.body fontWeight={500} fontSize="7px" letterSpacing="3px" color="text1">
