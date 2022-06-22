@@ -341,7 +341,7 @@ export default function SettingsTab() {
 
                     <MenuBanner id="link" href="https://commondao.xyz/" rel="noopener noreferrer" target="_blank">
                       <TYPE.body fontWeight={700} fontSize="9px" letterSpacing="3px" color="text1" marginBottom="4px">
-                        A CommonWealth Organization
+                        The People's CommonWealth
                       </TYPE.body>
                       <TYPE.body fontWeight={500} fontSize="9px" letterSpacing="3px" color="text1">
                         CommonDAO.xyz
