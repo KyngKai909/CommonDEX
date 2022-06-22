@@ -257,7 +257,7 @@ function Header({ history }: { history: any }) {
             {t('pool')}
           </StyledNavLink>
           <StyledExternalLink id={`stake-nav-link`} href={`https://vote.streetbased.co/`}>
-            Governance{' '}
+            Vote{' '}
             <Text ml="4px" fontSize="11px">
               ↗
             </Text>
