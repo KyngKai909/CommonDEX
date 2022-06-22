@@ -339,9 +339,9 @@ export default function SettingsTab() {
                       </InfoBadge>
                     </MenuFlyoutBottomItem>
 
-                    <MenuBanner id="link" href="https://1hive.org/" rel="noopener noreferrer" target="_blank">
+                    <MenuBanner id="link" href="https://commondao.xyz/" rel="noopener noreferrer" target="_blank">
                       <TYPE.body fontWeight={700} fontSize="10px" letterSpacing="3px" color="text1" marginBottom="4px">
-                        Built by Bees
+                        A CommonWealth Organization
                       </TYPE.body>
                       <TYPE.body fontWeight={500} fontSize="10px" letterSpacing="3px" color="text1">
                         1Hive.org
