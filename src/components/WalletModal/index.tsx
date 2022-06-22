@@ -18,7 +18,7 @@ import AccountDetails from '../AccountDetails'
 import Modal from '../Modal'
 import Option from './Option'
 import PendingView from './PendingView'
-import BeeLogo from '../../assets/images/Black Wordmark.png'
+import BeeLogo from '../../assets/images/"SB"-18.png'
 
 const CloseIcon = styled.div`
   position: absolute;
