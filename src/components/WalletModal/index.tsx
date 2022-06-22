@@ -18,7 +18,7 @@ import AccountDetails from '../AccountDetails'
 import Modal from '../Modal'
 import Option from './Option'
 import PendingView from './PendingView'
-import BeeLogo from '../../assets/images/Logo White Icon.png'
+import BeeLogo from '../../assets/images/Black Wordmmark.png'
 
 const CloseIcon = styled.div`
   position: absolute;
@@ -342,7 +342,7 @@ export default function WalletModal({
         </ContentWrapper>
         <Blurb as="a" href="https://commondao.xyz/" rel="noopener noreferrer" target="_blank">
           <TYPE.body fontWeight={700} fontSize="10px" color="text1" letterSpacing="3px" marginBottom="8px">
-            A CommonWealth Organization
+           A COMMONWEALTH ORGANIZATION
           </TYPE.body>
           {/* <img src={BeeLogo} alt="1Hive" style={{ opacity: '50%' }} /> */}
         </Blurb>
