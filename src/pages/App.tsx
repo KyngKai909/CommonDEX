@@ -94,7 +94,7 @@ export default function App() {
           </BodyWrapper>
 
           <Footer>
-            “Finding Value in Areas most people Ignore.” — A CommonWealth Organizatioon</Footer>
+            A Decentralized Exchange for the People by the People>
         </AppWrapper>
       </HashRouter>
     </Suspense>
