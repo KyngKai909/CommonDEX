@@ -1,6 +1,6 @@
-# Swapr dapp
+# CommonDEX dapp
 
-An open source decentralized application for Swapr -- a protocol for decentralized exchange of Ethereum tokens governed by the DXdao.
+An open source decentralized application for CommonDEX -- A Protocol for the Decentralized Exchange of Tookenized Assets whitelisted and/or governed by the The People's CommonWealth (CommonDAO).
 
 ## Development
 
