@@ -5,6 +5,8 @@ import styled from 'styled-components'
 
 import Logo from '../../assets/svg/logo.svg'
 import LogoDark from '../../assets/svg/CommonDEX Logo 1.svg'
+import Wordmark from '../../assets/images/Blank 2.png'
+import WordmarkDark from '../../assets/images/Blank 2.png'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useNativeCurrencyBalances } from '../../state/wallet/hooks'
@@ -39,7 +41,6 @@ const HeaderFrame = styled.div`
     width: calc(100%);
     position: relative;
   `};
-
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
         padding: 0.5rem 1rem;
   `}
@@ -50,7 +51,6 @@ const HeaderControls = styled.div`
   flex-direction: row;
   align-items: center;
   justify-self: flex-end;
-
   ${({ theme }) => theme.mediaWidth.upToMedium`
     flex-direction: row;
     justify-content: space-between;
@@ -72,7 +72,6 @@ const HeaderControls = styled.div`
 const HeaderElement = styled.div`
   display: flex;
   align-items: center;
-
   ${({ theme }) => theme.mediaWidth.upToMedium`
    flex-direction: row-reverse;
     align-items: center;
@@ -131,7 +130,6 @@ const AccountElement = styled.div<{ active: boolean, networkError: boolean }>`
   white-space: nowrap;
   width: 100%;
   cursor: pointer;
-
   :focus {
     border: solid 2px transparent;
   }
@@ -186,12 +184,10 @@ export const StyledNavLink = styled(NavLink).attrs({
   font-weight: 400;
   font-size: 16px;
   line-height: 19.5px;
-
   &.${activeClassName} {
     font-weight: 600;
     color: ${({ theme }) => theme.white};
   }
-
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
     display: none;
   `};
@@ -233,12 +229,11 @@ function Header({ history }: { history: any }) {
         <Title href=".">
           <DXswapIcon>
             <img src={isDark ? LogoDark : Logo} alt="logo" />
-         </DXswapIcon>
-           <TitleText>
-             <img style={{ marginLeft: '4px', marginTop: '4px' }} src={isDark ? WordmarkDark : Wordmark} alt="logo" />
-           </TitleText>
-           </DXswapIcon>         
-         </Title>                
+          </DXswapIcon>
+          <TitleText>
+            <img style={{ marginLeft: '4px', marginTop: '4px' }} src={isDark ? WordmarkDark : Wordmark} alt="logo" />
+          </TitleText>
+        </Title>
         <HeaderLinks>
           <StyledNavLink id={`swap-nav-link`} to={'/swap'} isActive={() => history.location.pathname.includes('/swap')}>
             {t('Swap')}
