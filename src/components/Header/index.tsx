@@ -231,7 +231,7 @@ function Header({ history }: { history: any }) {
             <img src={isDark ? LogoDark : Logo} alt="logo" />
           </DXswapIcon>
           <TitleText>
-            <img style={{ marginLeft: '4px', marginTop: '4px' }} src={isDark ? WordmarkDark : Wordmark} alt="logo" />
+            <img style={{ marginRight: '10px', marginTop: '4px' }} src={isDark ? WordmarkDark : Wordmark} alt="logo" />
           </TitleText>
         </Title>
         <HeaderLinks>
