@@ -321,7 +321,7 @@ export default function SettingsTab() {
                 <FlyoutBottomAligner>
                   <MenuFlyoutBottom>
                     <MenuFlyoutBottomItem>
-                      <MenuItem id="link" href="https://commondao.xyz/" rel="noopener noreferrer" target="_blank">
+                      <MenuItem id="link" href="https://commonbank.org/" rel="noopener noreferrer" target="_blank">
                         <Info size={14} />
                         About
                       </MenuItem>
@@ -341,7 +341,7 @@ export default function SettingsTab() {
 
                     <MenuBanner id="link" href="https://commondao.xyz/" rel="noopener noreferrer" target="_blank">
                       <TYPE.body fontWeight={700} fontSize="8px" letterSpacing="1px" color="text1" marginBottom="4px">
-                        A Common Product 
+                       The People's CommonWealth 
                       </TYPE.body>
                       <TYPE.body fontWeight={500} fontSize="8px" letterSpacing="3px" color="text1">
                         COMMONDAO.XYZ
