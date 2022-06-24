@@ -3,10 +3,10 @@ import { NavLink, withRouter } from 'react-router-dom'
 
 import styled from 'styled-components'
 
-import Logo from '../../assets/svg/logo.svg'
+import Logo from '../../assets/svg/CommonDEX Logo 1.svg'
 import LogoDark from '../../assets/svg/CommonDEX Logo 1.svg'
-import Wordmark from '../../assets/images/Blank 2.png'
-import WordmarkDark from '../../assets/images/Blank 2.png'
+import Wordmark from '../../assets/svg/CommonDEX Logo 1.svg'
+import WordmarkDark from '../../assets/svg/CommonDEX Logo 1.svg'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useNativeCurrencyBalances } from '../../state/wallet/hooks'
