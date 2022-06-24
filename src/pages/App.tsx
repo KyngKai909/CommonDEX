@@ -94,7 +94,7 @@ export default function App() {
           </BodyWrapper>
 
           <Footer>
-            A Decentralized Exchange Built by the People by the People - Where theres People theres Power</Footer>
+            A Decentralized Exchange Built by the People for the People</Footer>
         </AppWrapper>
       </HashRouter>
     </Suspense>
