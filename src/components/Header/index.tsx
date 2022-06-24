@@ -5,8 +5,6 @@ import styled from 'styled-components'
 
 import Logo from '../../assets/svg/logo.svg'
 import LogoDark from '../../assets/svg/CommonDEX Logo 1.svg'
-import Wordmark from '../../assets/images/Blank 2.png'
-import WordmarkDark from '../../assets/images/Blank 2.png'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useNativeCurrencyBalances } from '../../state/wallet/hooks'
@@ -235,10 +233,7 @@ function Header({ history }: { history: any }) {
         <Title href=".">
           <DXswapIcon>
             <img src={isDark ? LogoDark : Logo} alt="logo" />
-          </DXswapIcon>
-          <TitleText>
-            <img style={{ marginLeft: '4px', marginTop: '4px' }} src={isDark ? WordmarkDark : Wordmark} alt="logo" />
-          </TitleText>
+          </DXswapIcon>         
         </Title>
         <HeaderLinks>
           <StyledNavLink id={`swap-nav-link`} to={'/swap'} isActive={() => history.location.pathname.includes('/swap')}>
