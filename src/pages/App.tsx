@@ -94,7 +94,7 @@ export default function App() {
           </BodyWrapper>
 
           <Footer>
-            A Decentralized Exchange & Trading System for the Common Individual</Footer>
+            A Decentralized Exchange System for the Common Individual</Footer>
         </AppWrapper>
       </HashRouter>
     </Suspense>
