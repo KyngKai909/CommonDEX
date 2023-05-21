@@ -15,8 +15,8 @@ export const SBC: { [key: number]: Token } = {
     ChainId.MAINNET,
     '0x9048011B6b9C8bC90ACee48e048e343614af1088',
     18,
-    'DAI',
-    'Dai Stablecoin'
+    'SBC',
+    'STREETBASED Community Token'
   ),
   [ChainId.XDAI]: new Token(ChainId.XDAI, '0x3b6a1B76D772a771bf3fCe802BeaD6Ff196B84d5', 18, 'SBC', 'STREETBASED Community Token'),
 }
